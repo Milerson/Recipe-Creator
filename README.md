@@ -1,22 +1,29 @@
 # Diet Creator (dietcreator)
 
-A Quasar Framework app
+Aplikacja stworzona na zalicznie.
 
-## Install the dependencies
-```bash
-npm install
-```
+## Użyte biblioteki
 
-### Start the app in development mode (hot-code reloading, error reporting, etc.)
-```bash
-quasar dev
-```
+- Quasar - obsługa frontendu
+- axios - requesty do API [Recipy Puppy](https://recipe-puppy.p.rapidapi.com)
 
+## Zrzuty ekranu
 
-### Build the app for production
-```bash
-quasar build
-```
+### Puste wyszukiwanie
+![](img/01-empty-search.png)
+---
 
-### Customize the configuration
-See [Configuring quasar.conf.js](https://quasar.dev/quasar-cli/quasar-conf-js).
+### Wyszukiwanie po składniku mleko
+![](img/02-milk-search.png)
+---
+
+### Wyszukiwanie po składniku vodka
+![](img/02-vodka-search.png)
+---
+
+### Tryb ciemny
+![](img/04-dark-mode.png)
+---
+
+### Pomoc (modal)
+![](img/05-help-modal.png)
